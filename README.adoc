@@ -55,9 +55,9 @@ Projet est réalisé par::
 - https://github.com/Aestraa[MOINY-BOUDGHASSEM Yanis]
 - https://github.com/Hepssylon[NAUD Lilian]
 - https://github.com/Ozouka[ZOULI-BARRERE Karim] 
-...
 
-Tuteur/tutrice enseignant(e) de l'équipe:: mailto:amelie.legrand@univ-tlse2.fr[ALE]
+
+Tuteur/tutrice enseignant(e) de l'équipe:: mailto:amelie.legrand@univ-tlse2.fr[ALE, blabla]
 
 == Contexte général
 
@@ -92,7 +92,15 @@ TIP: Pensez à utiliser les salons Discord dédiés pour poser vos questions.
 
 TIP: Mettez ici toutes les informations nécessaire à l'utilisation de votre dépôt (comment on installe votre application, où sont les docs, etc.)
 
-== Gestion de projet & Qualité
+[cols="1,2,2",options=header]
+|===
+| Date    | Nom         |  Lien                            
+| 21/11   | Documentation Utilisateur    |https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Utilisateur/DocUtilisateur.adoc
+| 21/11   | Documentation Technique      |https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Technique/DocTechnique.adoc
+|===
+
+
+== Gestion de projet & Qualité      
 
 Chaque sprint (semaine) vous devrez livrer une nouvelle version de votre application (release).
 Utilisez pour cela les fonctionnalités de GitHub pour les https://docs.github.com/en/repositories/releasing-projects-on-github[Releases].
