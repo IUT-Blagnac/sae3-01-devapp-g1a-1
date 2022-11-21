@@ -51,11 +51,13 @@ toc::[]
 
 Projet est réalisé par::
 
-- https://github.com/janeDoe[Jane Doe]
-- https://github.com/johnSmith[John Smith]
+- https://github.com/Geriandre[DE BEAUMONT Pierre]
+- https://github.com/Aestraa[MOINY-BOUDGHASSEM Yanis]
+- https://github.com/Hepssylon[NAUD Lilian]
+- https://github.com/Ozouka[ZOULI-BARRERE Karim] 
 ...
 
-Tuteur/tutrice enseignant(e) de l'équipe:: mailto:jean-michel.bruel@univ-tlse2.fr[JMB]
+Tuteur/tutrice enseignant(e) de l'équipe:: mailto:amelie.legrand@univ-tlse2.fr[ALE]
 
 == Contexte général
 
