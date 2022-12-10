@@ -14,7 +14,7 @@
 
 <div class="contenu">
                                 
-     <img class="img-souk" src="https://thumbs.dreamstime.com/b/vieux-magasin-de-tapis-dans-cappadocia-goreme-turquie-octobre-152115852.jpg" alt="Image de fond">
+     <img class="img-souk" src="magasin.png" alt="Image de fond">
 
 </div>
 
