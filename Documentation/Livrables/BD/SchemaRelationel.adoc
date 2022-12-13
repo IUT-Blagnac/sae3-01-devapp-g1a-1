@@ -1,0 +1,19 @@
+# Schéma relationnel
+
+
+ - CB([.red]#+++<u>NumCB</u>+++#, Nom, Prenom, [.green]#idClient##)
+
+ - Clients([.red]#+++<u>idClient</u>+++#, Nom, Prenom, Telephone, Mail, NumRue, NomRue, CdPost, Ville, Username, Password, IsAdmin)
+
+ - Commenter([.red]#+++<u>idAvis</u>+++#, [.green]#idClient#, [.green]#RefProduit##, Texte, Note, Date)
+
+ - Contenir([.red]#+++<u>idClient#, RefProduit#</u>+++#, Quantite)
+
+ - Produits([.red]#+++<u>RefProduit</u>+++#, Prix, Description, Dimension, Poids, Vitesse, Coloris, IsAccessoire)
+
+ - Commandes([.red]#+++<u>RefCommande</u>+++#, Montant, NumRue, NomRue, CdPost, Ville, [.green]#idClient##)
+
+ - Constituer([.red]#+++<u>idCommande#, idProduit#</u>+++#, Quantite)
+
+---
+[.red]#+++<u>Clés primaires</u>+++# / [.green]#Clés étrangères##
