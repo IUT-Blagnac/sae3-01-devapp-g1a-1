@@ -66,6 +66,8 @@ TIP: Mettez ici toutes les informations nécessaire à l'utilisation de votre d�
 
 == Gestion de projet & Qualité      
 
+Version du projet : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/releases/tag/v3.0.0[3.0.0] +
+
 
 === Évaluations hebdomadaires
 
