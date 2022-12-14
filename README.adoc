@@ -54,19 +54,44 @@ Tuteur/tutrice enseignant(e) de l'équipe:: mailto:amelie.legrand@univ-tlse2.fr[
 
 == Réalisations 
 
-TIP: Mettez ici toutes les informations nécessaire à l'utilisation de votre dépôt (comment on installe votre application, où sont les docs, etc.)
+TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre application/site web(comment on installe notre application, où sont les docs, etc.)
+
+=== Livrables
+
+=== Site web 
 
 [cols="1,2,2",options=header]
 |===
-| Date    | Nom         |  Lien                            
-| 21/11   | Documentation Utilisateur    |https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Utilisateur/DocUtilisateur.adoc
-| 21/11   | Documentation Technique      |https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Technique/DocTechnique.adoc
+| Nom    | Lien         |  Notes 
+| `SITE WEB` | http://193.54.227.164/~SAESYS01/[Lien vers le site web] | Site web produit
+|===
+
+=== Documentation site web 
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes                          
+| `CDCF`   | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/AppelOffre/Documentation%20G1B-4/CDCF.pdf[Lien vers le fichier] | Cahier des charges fonctionnel 
+| `CDCT`   | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/AppelOffre/Documentation%20G1B-4/CDCT.pdf[Lien vers le fichier] | Cahier des charges technique
+| `DCE` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/CDCF-CDCT-DCE/DCE%20(Dossier%20de%20Consultation%20des%20Entreprises).pdf[Lien vers le fichier] | Dossier de consultation des entreprises 
+|===
+
+=== Application
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Explication du code (TD)` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Python/Documentation_IoT_G1A-1.pdf[Lien vers le fichier d'explication] | Explication du code
+| `Documentation Utilisateur` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Python/DocUtilPython.adoc[Lien vers la documentation] | Documentation utilisateur de l'application
 |===
 
 
 == Gestion de projet & Qualité      
 
-Version du projet : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/releases/tag/v3.0.0[3.0.0] +
+- `Version` du projet : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/releases/tag/v3.0.0[3.0.0] +
+- Lien vers les `user stories` : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3A%22User+Story%22[ici] +
+- Lien vers la `documentation technique` : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Technique/DocTechnique.adoc[ici] +
+- Lien vers la `documentation utilisateur` : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Utilisateur/DocUtilisateur.adoc[ici] +
 
 
 === Évaluations hebdomadaires
