@@ -42,7 +42,7 @@ toc::[]
 
 == Equipe
 
-Projet est réalisé par::
+Projet réalisé par::
 
 - https://github.com/Geriandre[DE BEAUMONT Pierre]
 - https://github.com/Aestraa[MOINY-BOUDGHASSEM Yanis]
@@ -55,8 +55,6 @@ Tuteur/tutrice enseignant(e) de l'équipe:: mailto:amelie.legrand@univ-tlse2.fr[
 == Réalisations 
 
 TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre application/site web(comment on installe notre application, où sont les docs, etc.)
-
-=== Livrables
 
 === Site web 
 
