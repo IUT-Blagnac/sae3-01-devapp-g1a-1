@@ -2,7 +2,7 @@
 	<server>chirpstack.iut-blagnac.fr</server>
 	<app>1</app>
 	<device>+</device>
-	<outFolder>data</outFolder>
+	<outFolder>.</outFolder>
 	<toDraw>
 		<activity>True</activity>
 		<co2>True</co2>
@@ -15,26 +15,27 @@
 		<tvoc>True</tvoc>
 	</toDraw>
 	<max>
-		<activity>0</activity>
-		<co2>500</co2>
-		<humidity>60</humidity>
-		<illumination>0</illumination>
+		<activity>5000</activity>
+		<co2>1500</co2>
+		<humidity>50</humidity>
+		<illumination>150</illumination>
 		<infrared>0</infrared>
 		<infrared_and_visible>0</infrared_and_visible>
 		<pressure>1020</pressure>
 		<temperature>22</temperature>
-		<tvoc>0</tvoc>
+		<tvoc>600</tvoc>
 	</max>
 	<min>
 		<activity>0</activity>
-		<co2>0</co2>
-		<humidity>60</humidity>
-		<illumination>0</illumination>
+		<co2>250</co2>
+		<humidity>30</humidity>
+		<illumination>100</illumination>
 		<infrared>0</infrared>
 		<infrared_and_visible>0</infrared_and_visible>
-		<pressure>1000</pressure>
-		<temperature>10</temperature>
-		<tvoc>0</tvoc>
+		<pressure>980</pressure>
+		<temperature>18</temperature>
+		<tvoc>100</tvoc>
 	</min>
 	<timeSleep>3600</timeSleep>
+	<frec>900</frec>
 </config>
