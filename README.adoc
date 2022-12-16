@@ -120,10 +120,43 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 
 == Gestion de projet & Qualité      
 
+=== Informations utiles
+
 - `Version` du projet : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/releases/tag/v3.0.0[3.0.0] +
-- Lien vers les `user stories` : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3A%22User+Story%22[ici] +
-- Lien vers la `documentation technique` : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Technique/DocTechnique.adoc[ici] +
-- Lien vers la `documentation utilisateur` : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Utilisateur/DocUtilisateur.adoc[ici] +
+- Lien vers les `user stories` en cours : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3A%22User+Story%22+label%3A%22En+cours%22[ici] +
+- Lien vers les `tâches` en cours : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3AT%C3%A2che+label%3A%22En+cours%22[ici] +
+- Lien vers la `future version` : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/milestone/4[ici] +
+
+
+=== Gestion du projet par semaine
+
+==== Semaine 47
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem47_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 47 (Bilan difficultés, avancement, etc.)
+|===
+
+==== Semaine 48
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem48_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 48 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem48_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 48
+|===
+
+==== Semaine 49
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem49_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 49 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 49 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 49 + ordre du jour 
+|===
+
 
 
 === Évaluations hebdomadaires
