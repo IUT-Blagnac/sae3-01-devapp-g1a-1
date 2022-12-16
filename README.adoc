@@ -56,7 +56,7 @@ Tuteur/tutrice enseignant(e) de l'équipe:: mailto:amelie.legrand@univ-tlse2.fr[
 
 == Réalisations 
 
-TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre application/site web(comment on installe notre application, où sont les docs, etc.)
+TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre application/site web(Comment accéder à notre site, où sont les docs, etc.)
 
 === Site web 
 
