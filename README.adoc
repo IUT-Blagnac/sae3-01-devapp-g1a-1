@@ -87,7 +87,7 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 | `SEP` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/Site%20Web/Sch%C3%A9maEnchainementPages.png[Lien vers le SEP] | Schéma d'enchainement des pages du site web client
 |===
 
-==== Groupe Client (G1B-6) pour la réalisation du site web
+==== Groupe Client (G1B-4) pour la réalisation du site web
 
 [cols="1,2,2",options=header]
 |===
