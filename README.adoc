@@ -70,6 +70,7 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 
 [cols="1,2,2",options=header]
 |===
+| Nom    | Lien         |  Notes 
 | `Compte rendu Speed Dating` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/AppelOffre/Compte%20rendu%20de%20speed%20dating.pdf[Lien vers le compte rendu] | Compte rendu du speed dating (afin de choisir le groupe client) 
 |===
 
