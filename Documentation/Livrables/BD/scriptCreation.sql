@@ -1,11 +1,11 @@
 
-DROP TABLE CB;
-DROP TABLE Clients;
-DROP TABLE Commenter;
-DROP TABLE Contenir;
-DROP TABLE Produits;
-DROP TABLE Commandes;
 DROP TABLE Constituer;
+DROP TABLE Contenir;
+DROP TABLE Commenter;
+DROP TABLE Commandes;
+DROP TABLE CB;
+DROP TABLE Produits;
+DROP TABLE Clients;
 
 CREATE TABLE Clients (
     idClient DECIMAL(5),
@@ -20,7 +20,7 @@ CREATE TABLE Clients (
     Username VARCHAR(32),
     Password VARCHAR(64),
     isAdmin CHAR(1),
-    CONSTRAINT pk_clients_idclients PRIMARY KEY idClient,
+    CONSTRAINT pk_clients_idclients PRIMARY KEY (idClient),
     CONSTRAINT ck_isAdmin CHECK (isAdmin IN ('O', 'N'))    
 );
 
@@ -30,7 +30,7 @@ CREATE TABLE CB (
     Nom VARCHAR(32),
     Prenom VARCHAR(32),
     idClient DECIMAL(5),
-    CONSTRAINT pk_cb_idcb PRIMARY KEY idCB,
+    CONSTRAINT pk_cb_idcb PRIMARY KEY (idCB),
     CONSTRAINT fk_cb_clients FOREIGN KEY (idClient) REFERENCES Clients(idClient) 
 );
 
@@ -43,7 +43,7 @@ CREATE TABLE Produits (
     Vitesse VARCHAR(10),
     Coloris VARCHAR(10),
     isAccessoire CHAR(1),
-    CONSTRAINT pk_produits_refproduit PRIMARY KEY RefProduit,
+    CONSTRAINT pk_produits_refproduit PRIMARY KEY (RefProduit),
     CONSTRAINT ck_produits_isaccessoire CHECK (isAccessoire IN ('O', 'N'))
 );
 
@@ -51,10 +51,10 @@ CREATE TABLE Commenter (
     idAvis DECIMAL(5),
     Texte VARCHAR(256),
     Note DECIMAL(5),
-    Date DATE,
+    Dte DATE,
     idClient DECIMAL(5),
     RefProduit VARCHAR(10),
-    CONSTRAINT pk_commenter_idavis PRIMARY KEY idAvis,
+    CONSTRAINT pk_commenter_idavis PRIMARY KEY (idAvis),
     CONSTRAINT ck_commenter_note CHECK (Note <= 10 AND Note >= 0),
     CONSTRAINT fk_commenter_clients FOREIGN KEY (idClient) REFERENCES Clients(idClient),
     CONSTRAINT fk_commenter_produits FOREIGN KEY (RefProduit) REFERENCES Produits(RefProduit)
@@ -64,7 +64,7 @@ CREATE TABLE Contenir (
     idClient DECIMAL(5),
     RefProduit VARCHAR(10),
     Quantite DECIMAL(5),
-    CONSTRAINT pk_contenir_idclient_refproduit PRIMARY KEY (idClient, RefProduit),
+    CONSTRAINT pk_contenir PRIMARY KEY (idClient, RefProduit),
     CONSTRAINT fk_contenir_clients FOREIGN KEY (idClient) REFERENCES Clients(idClient),
     CONSTRAINT fk_contenir_produits FOREIGN KEY (RefProduit) REFERENCES Produits(RefProduit)
 );
@@ -76,15 +76,17 @@ CREATE TABLE Commandes (
     CdPost VARCHAR(10),
     Ville VARCHAR(32),
     idClient DECIMAL(5),
-    CONSTRAINT pk_commandes_refcommande PRIMARY KEY RefCommande,
-    CONSTRAINT fk_commandes_clients FOREIGN KEY (idClient) REFERENCES Clients(idClient)
+    idCB DECIMAL(5),
+    CONSTRAINT pk_commandes_refcommande PRIMARY KEY (RefCommande),
+    CONSTRAINT fk_commandes_clients FOREIGN KEY (idClient) REFERENCES Clients(idClient),
+    CONSTRAINT fk_commandes_cb FOREIGN KEY (idCb) REFERENCES CB(idCB)
 );
 
 CREATE TABLE Constituer (
     RefCommande VARCHAR(10),
     RefProduit VARCHAR(10),
     Quantite DECIMAL(5),
-    CONSTRAINT pk_constituer_refcommande_refproduit PRIMARY KEY (RefCommande, RefProduit),
+    CONSTRAINT pk_constituer PRIMARY KEY (RefCommande, RefProduit),
     CONSTRAINT fk_constituer_produits FOREIGN KEY (RefProduit) REFERENCES Produits(RefProduit),
     CONSTRAINT fk_contenir_commandes FOREIGN KEY (RefCommande) REFERENCES Commandes(RefCommande)
 );
