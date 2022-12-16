@@ -1,19 +1,19 @@
 # Schéma relationnel
 
 
- - CB([.red]#+++<u>NumCB</u>+++#, Nom, Prenom, [.green]#idClient##)
+ - CB(*NumCB*, Nom, Prenom, _idClient#_)
 
- - Clients([.red]#+++<u>idClient</u>+++#, Nom, Prenom, Telephone, Mail, NumRue, NomRue, CdPost, Ville, Username, Password, IsAdmin)
+ - Clients(*idClient*, Nom, Prenom, Telephone, Mail, NumRue, NomRue, CdPost, Ville, Username, Password, IsAdmin)
 
- - Commenter([.red]#+++<u>idAvis</u>+++#, [.green]#idClient#, [.green]#RefProduit##, Texte, Note, Date)
+ - Commenter(*idAvis*, _idClient#_, _RefProduit#_, Texte, Note, Date)
 
- - Contenir([.red]#+++<u>idClient#, RefProduit#</u>+++#, Quantite)
+ - Contenir(*_idClient#, RefProduit#_*, Quantite)
 
- - Produits([.red]#+++<u>RefProduit</u>+++#, Prix, Description, Dimension, Poids, Vitesse, Coloris, IsAccessoire)
+ - Produits(*RefProduit*, Prix, Description, Dimension, Poids, Vitesse, Coloris, IsAccessoire)
 
- - Commandes([.red]#+++<u>RefCommande</u>+++#, Montant, NumRue, NomRue, CdPost, Ville, [.green]#idClient##)
+ - Commandes(*RefCommande*, NumRue, NomRue, CdPost, Ville, _idClient#_)
 
- - Constituer([.red]#+++<u>idCommande#, idProduit#</u>+++#, Quantite)
+ - Constituer(*_RefCommande#, RefProduit#_*, Quantite)
 
 ---
-[.red]#+++<u>Clés primaires</u>+++# / [.green]#Clés étrangères##
+*Clés primaires* / _Clés étrangères#_
