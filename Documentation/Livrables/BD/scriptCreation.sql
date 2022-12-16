@@ -11,9 +11,9 @@ CREATE TABLE Clients (
     idClient DECIMAL(5),
     Nom VARCHAR(32),
     Prenom VARCHAR(32),
-    Telephone DECIMAL(10),
+    Telephone CHAR(10),
     Mail VARCHAR(32),
-    NumRue DECIMAL(5),
+    NumRue VARCHAR(5),
     NomRue VARCHAR(32),
     CdPost VARCHAR(10),
     Ville VARCHAR(32),
@@ -50,7 +50,7 @@ CREATE TABLE Produits (
 CREATE TABLE Commenter (
     idAvis DECIMAL(5),
     Texte VARCHAR(256),
-    Note DECIMAL(5),
+    Note DECIMAL(10),
     Dte DATE,
     idClient DECIMAL(5),
     RefProduit VARCHAR(10),
@@ -71,7 +71,7 @@ CREATE TABLE Contenir (
 
 CREATE TABLE Commandes (
     RefCommande VARCHAR(10),
-    NumRue DECIMAL(5),
+    NumRue VARCHAR(5),
     NomRue VARCHAR(32),
     CdPost VARCHAR(10),
     Ville VARCHAR(32),
