@@ -1,2 +1,42 @@
-# Documentation d'installation (Appli Python)
+= Nom de l'application
+:authors: Nom de l'auteur
+:toc:
+:toclevels: 4
+:sectnums:
+:sectanchors:
+:icons: font
+
+== Introduction
+
+Description de l'application et de ses fonctionnalités.
+
+Notre application Python vous permet d'accéder aux données des capteurs de référence XX et de récupérer les valeurs de XXX. Ces données peuvent être enregistrées dans un ou plusieurs fichiers pour une utilisation ultérieure.
+
+L'application est facile à utiliser et peut être intégrée à d'autres processus et outils pour automatiser la collecte et l'analyse de données de capteurs.
+
+
+== Prérequis
+
+Liste des prérequis pour utiliser l'application (par exemple, version de Python, modules externes à installer, etc.).
+
+L'application nécessite `Python 3.7` ou une version ultérieure.
+
+== Installation
+
+Pour installer l'application, suivez ces étapes :
+
+1. Téléchargez l'application Python à partir de cette URL : http://example.com/app.py
+
+2. Téléchargez le fichier de configuration à partir de cette URL : http://example.com/config.ini
+
+3. Regroupez l'application et le fichier de configuration dans un dossier de votre choix.
+
+== Utilisation
+
+Instructions détaillées pour utiliser l'application, en incluant comment accéder aux données des capteurs et comment écrire ces données dans un ou plusieurs fichiers.
+
+== Ressources supplémentaires
+
+Liens vers des ressources supplémentaires pour en savoir plus sur l'application ou sur les sujets connexes.
+
 
