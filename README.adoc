@@ -123,10 +123,11 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 
 === Informations utiles
 
-- `Version` du projet : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/releases/tag/v3.0.0[3.0.0] +
+- `Version` du projet : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/releases/tag/v4.0.0[4.0.0] +
+- Lien vers la `future version` : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/milestone/5[ici] +
 - Lien vers les `user stories` en cours : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3A%22User+Story%22+label%3A%22En+cours%22[ici] +
 - Lien vers les `tâches` en cours : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3AT%C3%A2che+label%3A%22En+cours%22[ici] +
-- Lien vers la `future version` : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/milestone/4[ici] +
+
 
 
 === Gestion du projet par semaine
