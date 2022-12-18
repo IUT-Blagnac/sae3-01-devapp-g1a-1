@@ -1,5 +1,8 @@
 = Documentation des test site web G1A-1
 
+:toc:
+:toc-title: Table des matières
+
 Pour vous présenter le fonctionnement de notre `page de connexion` ainsi que la `page de création` de compte du site "Magic Alfombra", le développeur de notre équipe a conceptionné une documentation de test du site Web de ces deux pages.
 
 == Page de connexion
@@ -43,3 +46,20 @@ image::images/pagemonCompte.png[loginmoncompte]
 Lorsque l'utilisateur souhaite se deconnecter il n'a juste qu'à cliquer sur le bouton Déconnexion en haut à droite du header.
 
 De plus, si l'utilisateur avait séléctionné l'option se souvenir de moi, lorsqu'il souhaiterai se reconnecter son login serait prérempli.
+
+
+== Code 
+
+Nous allons vous mettre un aperçu du code réalisé pour la création d'un compte
+
+image::images/code1.png[code1]
+
+Ici nous effectuons la requête SQL avec un processus bien précis, nous la préparons puis nous l'executons.
+
+C'est une requête paramétré et lors de l'insertion du mot de passe nous observons ci-dessous que nous le chiffrons afin d'augmenter la sécurité de notre site et le respect de la vie privée de nos clients.
+
+image::images/code2.png[code2]
+
+
+Une fois fini, si l'utilisateur a bien rempli le formulaire, on le redirigie vers le formulaire de connexion. Sinon on le redirige également au même endroit mais avec un message d'erreur.
+
