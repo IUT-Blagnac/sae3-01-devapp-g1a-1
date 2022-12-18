@@ -14,12 +14,6 @@ body{
 }
 
 
-
-
-.contenu {
-    flex: 1 0 auto;
-}
-
 /* HEADER */
 
 .main-head{
@@ -87,7 +81,18 @@ nav .search-box input{
 }
 
 
+/* Contenu interne */
 
+
+.contenu {
+    flex: 1 0 auto;
+}
+
+.img-souk{
+    width: 100%;
+    height: 100%;
+
+}
 
 /* FOOTER*/
 
@@ -162,12 +167,7 @@ footer{
 }
 
 
-/* Contenu de la page */
 
-.img-souk{
-    width: 100%;
-    height: 100%;
-}
 
 
 
