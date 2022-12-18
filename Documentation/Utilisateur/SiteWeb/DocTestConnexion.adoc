@@ -1,8 +1,10 @@
 = Documentation des test site web G1A-1
-
 :toc:
 :toc-title: Table des matières
+:sectnums:
+:sectnumlevels: 1
 
+== Introduction
 Pour vous présenter le fonctionnement de notre `page de connexion` ainsi que la `page de création` de compte du site "Magic Alfombra", le développeur de notre équipe a conceptionné une documentation de test du site Web de ces deux pages.
 
 == Page de connexion
