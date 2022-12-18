@@ -1,0 +1,45 @@
+= Documentation des test site web G1A-1
+
+Pour vous présenter le fonctionnement de notre `page de connexion` ainsi que la `page de création` de compte du site "Magic Alfombra", le développeur de notre équipe a conceptionné une documentation de test du site Web de ces deux pages.
+
+== Page de connexion
+
+
+
+image::images/pagelogin.png[login]
+
+
+- Tentative de connexion avec champs vides :
+
+image::images/pageloginvalid.png[loginvalid]
+
+- Tentative de connexion avec champs invalides :
+
+image::images/pageloginval.png[loginval]
+
+- Résultat :
+
+image::images/pageerreur.png[erreurlogin]
+
+
+== Page création d'un compte 
+
+image::images/pagecreacpt.png[creacompte]
+
+- Lorsqu'un compte est crée il est directement inséré dans la base de donnée
+
+image::images/pagebd.png[lignebd]
+
+- Une fois le compte crée, vous êtes redirigé vers la page de connexion avec votre login préinséré :
+
+
+image::images/pagelogincrea.png[logincrea]
+
+
+== Page index pour utilisateur connecté
+
+image::images/pagemonCompte.png[loginmoncompte]
+
+Lorsque l'utilisateur souhaite se deconnecter il n'a juste qu'à cliquer sur le bouton Déconnexion en haut à droite du header.
+
+De plus, si l'utilisateur avait séléctionné l'option se souvenir de moi, lorsqu'il souhaiterai se reconnecter son login serait prérempli.
