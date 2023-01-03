@@ -123,11 +123,10 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 
 === Informations utiles
 
-- `Version` du projet : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/releases/tag/v4.0.0[4.0.0] +
-- Lien vers la `future version` : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/milestone/5[ici] +
-- Lien vers les `user stories` en cours : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3A%22User+Story%22+label%3A%22En+cours%22[ici] +
-- Lien vers les `tâches` en cours : https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3AT%C3%A2che+label%3A%22En+cours%22[ici] +
-
+- `Version` du projet : image:https://img.shields.io/github/v/release/IUT-Blagnac/sae3-01-devapp-g1a-1?style=plastic&logo=Vonage&logoColor=4592AF[link="https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/releases/tag/v4.0.0"]
+- `Future version` : image:https://img.shields.io/badge/milestone-5-%233C79F5?style=plastic&logo=Vonage&logoColor=blue[link=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/milestone/5]
+- `User stories` en cours : image:https://img.shields.io/github/issues-search/IUT-Blagnac/sae3-01-devapp-g1a-1?color=CF7500&label=User%20Stories&logo=Udacity&logoColor=CF7500&query=is%3Aopen%20is%3Aissue%20label%3A%22User%20Story%22%20label%3A%22En%20cours%22&style=plastic[link=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3A%22User+Story%22+label%3A%22En+cours%22]
+- `Tâches` en cours : image:https://img.shields.io/github/issues-search/IUT-Blagnac/sae3-01-devapp-g1a-1?color=50D890&label=T%C3%A2ches&logo=Tether&logoColor=50D890&query=is%3Aopen%20is%3Aissue%20label%3AT%C3%A2che%20label%3A%22En%20cours%22&style=plastic[link=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3AT%C3%A2che+label%3A%22En+cours%22]
 
 
 === Gestion du projet par semaine
