@@ -7,6 +7,8 @@
 :toc: macro
 :toc-title: Table des matières
 :toclevels: 4
+:sectnums:
+:sectnumlevels: 5
 :window: _blank
 :correction!:
 
@@ -66,6 +68,15 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 | `SITE WEB` | http://193.54.227.164/~SAESYS01/[Lien vers le site web] | Site web produit
 |===
 
+==== Tests des fonctionnalités du site web
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `...` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/BD/SchemaRelationel.adoc[Lien vers le schéma relationnel] | Schéma relationnel de la base de données
+| `Tests Procédures` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/BD/Livrable%20BD%20SEM01%20G1A-1.docx.pdf[Lien vers les tests] | Tests des procédures de la base de données
+|===
+
 === Choix du groupe client
 
 [cols="1,2,2",options=header]
@@ -97,9 +108,9 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 | `DCE Client` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/AppelOffre/Documentation%20G1B-4/DCE.pdf[Lien vers le DCE client] | Diagramme de classe de la base de données 
 |===
 
-
-
 === Base de données
+
+==== Documentation base de données
 
 [cols="1,2,2",options=header]
 |===
@@ -109,19 +120,52 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 | `Dictionnaire de données` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/BD/DicoDesDonnees_G1A-1.pdf[Lien vers le dictionnaire de données] | Dictionnaire de données de la base de données
 |===
 
-=== Solution Iot (Côté PYTHON) 
+==== Tests des fonctionnalités de la base de données
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Tests Procédures` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/BD/Livrable%20BD%20SEM01%20G1A-1.docx.pdf[Lien vers les tests] | Tests des procédures de la base de données
+|===
+
+=== Application PYTHON/JAVA
+
+==== Application Python
+
+===== Documentation
 
 [cols="1,2,2",options=header]
 |===
 | Nom    | Lien         |  Notes 
 | `Explication du code (TD)` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Python/Documentation_IoT_G1A-1.pdf[Lien vers le fichier d'explication] | Explication du code réalisé en TD 
 | `Documentation Utilisateur` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Python/DocUtilPython.adoc[Lien vers la documentation] | Documentation utilisateur de l'application
-| `Documentation Test` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/Python/DocTestPy.adoc[Lien vers la documentation] | Documentation test de l'application
 |===
 
-=== Solution Iot (Côté JAVA)
+===== Tests des fonctionnalités de l'application 
 
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Tests de l'application` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/Python/DocTestPy.adoc[Lien vers les tests] | Tests de l'application Python 
+|===
 
+==== Application Java
+
+===== Documentation
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `A venir...` |  | Documentation à venir prochainement...
+|===
+
+===== Tests des fonctionnalités de l'application 
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `A venir...` |  | Tests à venir prochainement...
+|===
 
 == Gestion de projet & Qualité      
 
@@ -159,7 +203,7 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 | Nom    | Lien         |  Notes 
 | `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem49_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 49 (Bilan des tâches effectuées avec gantt)
 | `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 49 avec une analyse de travail d'équipe
-| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM49_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 49 + ordre du jour 
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 49 + ordre du jour 
 |===
 
 ==== Semaine 50
@@ -168,18 +212,8 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 |===
 | Nom    | Lien         |  Notes 
 | `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem50_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 50 (Bilan des tâches effectuées avec gantt)
-| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem50_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 50 avec une analyse de travail d'équipe
-| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM50_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 50 + ordre du jour 
-|===
-
-==== Semaine 01
-
-[cols="1,2,2",options=header]
-|===
-| Nom    | Lien         |  Notes 
-| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem01_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 01 (Bilan des tâches effectuées avec gantt)
-| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem01_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 01 avec une analyse de travail d'équipe
-| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM01_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 01 + ordre du jour 
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 49 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 49 + ordre du jour 
 |===
 
 === Évaluations hebdomadaires
