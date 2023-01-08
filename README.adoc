@@ -73,8 +73,7 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 [cols="1,2,2",options=header]
 |===
 | Nom    | Lien         |  Notes 
-| `...` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/BD/SchemaRelationel.adoc[Lien vers le schéma relationnel] | Schéma relationnel de la base de données
-| `Tests Procédures` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/BD/Livrable%20BD%20SEM01%20G1A-1.docx.pdf[Lien vers les tests] | Tests des procédures de la base de données
+| `Test produit/détail` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/Web/Livrable%20WEB%20SEM01%20G1A-1.docx.pdf[Lien vers les tests] | Tests de la page des produits et de la page de détail d'un produit
 |===
 
 === Choix du groupe client
@@ -203,7 +202,7 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 | Nom    | Lien         |  Notes 
 | `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem49_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 49 (Bilan des tâches effectuées avec gantt)
 | `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 49 avec une analyse de travail d'équipe
-| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 49 + ordre du jour 
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM49_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 49 + ordre du jour 
 |===
 
 ==== Semaine 50
@@ -212,8 +211,18 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 |===
 | Nom    | Lien         |  Notes 
 | `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem50_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 50 (Bilan des tâches effectuées avec gantt)
-| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 49 avec une analyse de travail d'équipe
-| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 49 + ordre du jour 
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem50_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 50 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM50_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 50 + ordre du jour 
+|===
+
+==== Semaine 01
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem01_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 01 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficultesReussitesSem01_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 01 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_Reunion_SEM01_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 01 + ordre du jour 
 |===
 
 === Évaluations hebdomadaires
