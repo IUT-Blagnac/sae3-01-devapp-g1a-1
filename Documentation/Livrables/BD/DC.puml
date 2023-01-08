@@ -1,0 +1,70 @@
+@startuml
+
+skinparam linetype ortho
+
+class Clients {
+    Nom
+    Prenom
+    Telephone
+    Mail
+    NumRue
+    NomRue
+    CdPost
+    Ville
+    Username
+    Password
+    IsAdmin
+}
+
+class Produits {
+    RefProduit
+    Prix 
+    Description
+    Dimension
+    Poids
+    Vitesse
+    Coloris
+    IsAccessoire
+}
+
+class Commandes {
+    RefCommande
+    NumRue
+    NomRue
+    CdPost
+    Ville
+}
+
+class CB {
+    NumCB
+    Nom
+    Prenom
+}
+
+class Commenter {
+    Texte
+    Note
+    Date
+}
+
+Clients "1  "---"*" Commandes
+Commandes "*"-"*" Produits
+(Commandes, Produits) . Constituer
+Clients "*"--"*" Produits
+(Clients, Produits) . Contenir
+
+class Constituer {
+    Quantite
+}
+
+class Contenir {
+    Quantite
+}
+
+CB "*"-"1" Clients
+CB "1" --- "*" Commandes
+Clients "*"---"*" Produits
+(Clients, Produits) . Commenter
+
+
+@enduml

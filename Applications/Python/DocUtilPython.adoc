@@ -1,0 +1,56 @@
+= Nom de l'application
+:authors: Nom de l'auteur
+:toc:
+:toclevels: 4
+:sectnums:
+:sectanchors:
+:icons: font
+
+== Introduction
+
+Notre application Python vous permet de récupérer les données envoyées par les capteurs des différents entrepôts de stockage des produits et de les stocker dans des fichiers. 
+
+L'objectif ensuite sera d'utiliser une deuxième application pour modifier la configuration de la première et lire les données stockées.
+
+
+== Prérequis
+
+L'application nécessite plusieurs choses qu'il vous faudra installer au préalable :
+
+- `Python 3` ou une version ultérieure.
+- le module python `xmltodict`
+- le module python `paho-mqtt`
+
+Ces deux modules étant disponible avec la commande `pip install <module>`
+
+image::img/pip-install.PNG[]
+
+== Installation
+
+Pour installer l'application, suivez ces étapes :
+
+1. Téléchargez l'application Python à partir de cette URL : https://downgit.github.io/#/home?url=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Python/SAEIOT.py[application.py]
+
+2. Téléchargez le fichier de configuration à partir de cette URL : https://yehonal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2FIUT-Blagnac%2Fsae3-01-devapp-g1a-1%2Fblob%2Fmaster%2FApplications%2FPython%2Fconfig.xml[configuration.xml]
+
+3. Regroupez l'application et le fichier de configuration dans un dossier de votre choix.
+
+image::img/dossier.PNG[]
+
+== Utilisation
+
+Pour exécuter votre application, il ne vous reste plus qu'a ouvrir un terminal, vous placer dans le dossier où se trouve l'application et exécuter la commande suivante : 
+
+`python SAEIOT.py`
+
+image::img/exec.PNG[]
+
+Et voila, votre application est lancé et sauvegardera toutes les 15 min les dernières données récupérées sur les capteurs.
+
+== Ressources supplémentaires
+
+L'application Java permettra ensuite de modifier le fichier de configuration et de lire les données écrites.
+
+cf. `futur doc java`
+
+

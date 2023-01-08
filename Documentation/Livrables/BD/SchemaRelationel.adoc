@@ -1,0 +1,19 @@
+# Schéma relationnel
+
+
+ - CB(*NumCB*, Nom, Prenom, _idClient#_)
+
+ - Clients(*idClient*, Nom, Prenom, Telephone, Mail, NumRue, NomRue, CdPost, Ville, Username, Password, IsAdmin)
+
+ - Commenter(*idAvis*, _idClient#_, _RefProduit#_, Texte, Note, Date)
+
+ - Contenir(*_idClient#, RefProduit#_*, Quantite)
+
+ - Produits(*RefProduit*, Prix, Description, Dimension, Poids, Vitesse, Coloris, IsAccessoire)
+
+ - Commandes(*RefCommande*, NumRue, NomRue, CdPost, Ville, _idClient#_)
+
+ - Constituer(*_RefCommande#, RefProduit#_*, Quantite)
+
+---
+*Clés primaires* / _Clés étrangères#_
