@@ -1,0 +1,104 @@
+= Documentation Utilisateur site web G1A-1
+:toc:
+:toc-title: Table des matières
+:sectnums:
+:sectnumlevels: 4
+:hide-uri-scheme:   
+
+
+== Introduction
+Bienvenue sur notre site web ! Ce guide d'utilisation a été conçu pour vous aider à naviguer sur notre site et à en tirer le meilleur parti. Il vous expliquera comment accéder aux différentes sections et fonctionnalités, ainsi que les étapes à suivre pour effectuer des tâches courantes, telles que la création d'un compte ou la consultation d'un produit. Si vous rencontrez des problèmes ou des questions, n'hésitez pas à consulter notre section d'aide ou à nous contacter directement. Merci d'utiliser notre site !
+
+
+== Accéder au site web
+
+=== Avec le réseau de l'IUT (filaire)
+Afin d'accéder à notre site ouvrez votre navigateur web et saisissez l'adresse suivante : http://192.168.224.139/~SAESYS01/
+
+image::images/recherche.jpg[recherche]
+
+=== Avec votre propre réseau
+
+Afin d'accéder à notre site ouvrez votre navigateur web et saisissez l'adresse suivante : http://193.54.227.164/~SAESYS01/
+
+image::images/recherche.jpg[recherche]
+
+== Accueil
+
+=== En-tête du site 
+
+Lorsque vous êtes redirigé vers notre site vous arrivez sur la page d'accueil. Vous pouvez y accéder à tout moment en cliquant sur le logo de notre site en haut à gauche de la page.
+
+image::images/accueil.jpg[accueil]
+
+=== Pied de page du site
+
+Le pied de page du site contient des informations sur notre société, ainsi que des liens vers nos réseaux sociaux. (Servant notamment à nous contacter)
+
+image::images/footer.jpg[piedDePage]
+
+== Recherche de produit 
+
+Pour rechercher un produit, il vous suffit de cliquer sur la barre de recherche au milieu de la page et de saisir le nom du produit que vous souhaitez trouver. (`À VENIR PROCHAINEMENT...`)
+
+image::images/rechercheProduit.jpg[rechercheProduit]
+
+== Consultation du panier
+
+Pour consulter votre panier, il vous suffit de cliquer sur le bouton "Panier" en haut à droite de la page. (`À VENIR PROCHAINEMENT...`)
+
+image::images/panier.jpg[panier]
+
+== Création de compte
+
+Pour créer un compte, il vous suffit de cliquer sur le bouton `Login` en haut à droite de la page.
+
+image::images/login.jpg[creationCompte]
+
+Vous serez alors redirigé vers la page de connexion. Il vous suffit de cliquer sur le bouton `Cliquez ici` pour accéder au formulaire de création de compte.
+
+image::images/cliquerCrea.jpg[creationCompte]
+
+
+Vous arriverez alors sur la page de création de compte. Il vous suffit de remplir les champs avec vos informations personnelles.
+
+image::images/creationCompte.jpg[creationCompte]
+
+Et de cliquer sur le bouton "valider".
+
+image::images/valider.jpg[valider]
+
+Un compte sera alors crée avec succès. Vous pouvez maintenant vous connecter avec vos identifiants. 
+
+== Connexion à un compte
+
+=== Suite à la création d'un compte
+
+Si vous venez de créer un compte, vous serez automatiquement redirigé vers la page de connexion (avec votre nom d'utilisateur prérempli). Il vous suffit de saisir votre mot de passe et de cliquer sur le bouton "Se connecter".
+
+image::images/validConnexion.jpg[validerConnexion]
+
+=== Via le bouton "Se connecter"
+
+Pour vous connecter à votre compte, il vous suffit de cliquer sur le bouton `Login`` en haut à droite de la page. (`À VENIR PROCHAINEMENT...`)
+
+image::images/login.jpg[connexion]
+
+Vous serez alors redirigé vers la page de connexion. Il vous suffit de saisir votre nom d'utilisateur et votre mot de passe 
+
+image::images/infoCrea.jpg[informationsCreation]
+
+Et de cliquer sur le bouton `Valider`.
+
+image::images/validLogin.jpg[valider]
+
+Vous avez également une option "Se souvenir de moi" qui vous permettra de rester connecté sur notre site. Vous avez simplement à cocher la case correspondante. 
+
+image::images/souvenirMoi.jpg[valider]
+
+== Consultation d'un produit
+
+
+
+
+
