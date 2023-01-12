@@ -98,6 +98,17 @@ image::images/souvenirMoi.jpg[valider]
 
 == Consultation d'un produit
 
+Pour consulter les produits disponibles sur notre site, vous n'avez qu'à appuyer sur le bouton `Decouvrez nos produits` au milieu à gauche de votre écran.
+
+image::images/decouvrirproduit.png[valider]
+
+Cela vous redirigera sur une nouvelle page dans laquelle vous pourrez observer les divers produits disponibles.
+
+image::images/produitsdispo.png[valider]
+
+Et lorsque vous cliquerez sur l'un d'eux vous serez rediriger vers une autre page qui contiendra tout les détails du produits en question et vous pourrez l'ajouter au panier et cliquant sur le bouton `Ajouter au panier`.
+
+image::images/detailproduit.png[valider]
 
 
 
