@@ -74,6 +74,7 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 |===
 | Nom    | Lien         |  Notes 
 | `Test produit/détail` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/Web/Livrable%20WEB%20SEM01%20G1A-1.docx.pdf[Lien vers les tests] | Tests de la page des produits et de la page de détail d'un produit
+| `Test modif/panier` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/Web/Livrable%20WEB%20SEM02%20G1A-1.docx.pdf[Lien vers les tests] | Tests de la page de modification d'un compte client et de la page du panier
 |===
 
 === Choix du groupe client
@@ -223,6 +224,16 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 | `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem01_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 01 (Bilan des tâches effectuées avec gantt)
 | `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficultesReussitesSem01_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 01 avec une analyse de travail d'équipe
 | `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_Reunion_SEM01_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 01 + ordre du jour 
+|===
+
+==== Semaine 02
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem02_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 02 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficultesReussitesSem02_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 02 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_Reunion_SEM02_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 02 + ordre du jour 
 |===
 
 === Évaluations hebdomadaires
