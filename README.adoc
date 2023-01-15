@@ -68,12 +68,21 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 | `SITE WEB` | http://193.54.227.164/~SAESYS01/[Lien vers le site web] | Site web produit
 |===
 
+==== Documentation utilisateur du site web
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Manuel Utilisateur` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Utilisateur/SiteWeb/DocUtil.adoc[Lien vers la documentation] | Documentation utilisateur du site web (tutorial d'utilisation du site web et des fonctionnalités)
+|===
+
 ==== Tests des fonctionnalités du site web
 
 [cols="1,2,2",options=header]
 |===
 | Nom    | Lien         |  Notes 
 | `Test produit/détail` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/Web/Livrable%20WEB%20SEM01%20G1A-1.docx.pdf[Lien vers les tests] | Tests de la page des produits et de la page de détail d'un produit
+| `Test modif/panier` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/Web/Livrable%20WEB%20SEM02%20G1A-1.docx.pdf[Lien vers les tests] | Tests de la page de modification d'un compte client et de la page du panier
 |===
 
 === Choix du groupe client
@@ -150,20 +159,19 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 
 ==== Application Java
 
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Code Source` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/raw/master/Applications/Java/MagicAlfombrAppSrc.zip[Télécharger le code source de l'application] | Code source de l'application Java
+| `.jar Fonctionnel` | | .jar de l'application Java fonctionnel à venir prochainement...
+|===
+
 ===== Documentation
 
 [cols="1,2,2",options=header]
 |===
 | Nom    | Lien         |  Notes 
-| `A venir...` |  | Documentation à venir prochainement...
-|===
-
-===== Tests des fonctionnalités de l'application 
-
-[cols="1,2,2",options=header]
-|===
-| Nom    | Lien         |  Notes 
-| `A venir...` |  | Tests à venir prochainement...
+| `Documentation technique` |  | Documentation à venir prochainement...
 |===
 
 == Gestion de projet & Qualité      
@@ -223,6 +231,16 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 | `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem01_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 01 (Bilan des tâches effectuées avec gantt)
 | `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficultesReussitesSem01_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 01 avec une analyse de travail d'équipe
 | `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_Reunion_SEM01_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 01 + ordre du jour 
+|===
+
+==== Semaine 02
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduODJ_Reunion_SEM02_G1A-1.pdf.pdf[Lien vers le bilan] | Bilan de la semaine 02 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem02_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 02 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM02_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 02 + ordre du jour 
 |===
 
 === Évaluations hebdomadaires
