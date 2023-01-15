@@ -29,31 +29,43 @@ image::images/recherche.jpg[recherche]
 
 Lorsque vous êtes redirigé vers notre site vous arrivez sur la page d'accueil. Vous pouvez y accéder à tout moment en cliquant sur le logo de notre site en haut à gauche de la page.
 
-image::images/accueil.jpg[accueil]
+image::images/accueil.png[accueil]
 
 === Pied de page du site
 
 Le pied de page du site contient des informations sur notre société, ainsi que des liens vers nos réseaux sociaux. (Servant notamment à nous contacter)
 
-image::images/footer.jpg[piedDePage]
+image::images/footer.png[piedDePage]
 
 == Recherche de produit 
 
 Pour rechercher un produit, il vous suffit de cliquer sur la barre de recherche au milieu de la page et de saisir le nom du produit que vous souhaitez trouver. (`À VENIR PROCHAINEMENT...`)
 
-image::images/rechercheProduit.jpg[rechercheProduit]
+image::images/rechercheProduit.png[rechercheProduit]
 
 == Consultation du panier
 
-Pour consulter votre panier, il vous suffit de cliquer sur le bouton "Panier" en haut à droite de la page. (`À VENIR PROCHAINEMENT...`)
+Afin de consulter le panier, il vous suffit de cliquer sur le bouton `Panier` en haut à droite de la page.
 
-image::images/panier.jpg[panier]
+image::images/panier.png[panier]
+
+=== Si vous n'êtes pas connecté
+
+Si vous n'êtes pas connecté, vous serez redirigé vers la page de connexion. Il vous suffira de soit vous connecter, soit créer un compte.
+
+image::images/connexionPanier.png[coPanier]
+
+=== Si vous êtes connecté
+
+Si vous êtes connecté, vous arriverez sur la page de consultation de votre panier. Vous pouvez alors soit consulter les produits que vous avez ajouté, soit les supprimer. 
+
+image::images/AffichagePanier.png[AffPanier]
 
 == Création de compte
 
 Pour créer un compte, il vous suffit de cliquer sur le bouton `Login` en haut à droite de la page.
 
-image::images/login.jpg[creationCompte]
+image::images/login.png[creationCompte]
 
 Vous serez alors redirigé vers la page de connexion. Il vous suffit de cliquer sur le bouton `Cliquez ici` pour accéder au formulaire de création de compte.
 
@@ -80,9 +92,9 @@ image::images/validConnexion.jpg[validerConnexion]
 
 === Via le bouton "Se connecter"
 
-Pour vous connecter à votre compte, il vous suffit de cliquer sur le bouton `Login`` en haut à droite de la page. (`À VENIR PROCHAINEMENT...`)
+Pour vous connecter à votre compte, il vous suffit de cliquer sur le bouton `Login`` en haut à droite de la page.
 
-image::images/login.jpg[connexion]
+image::images/login.png[connexion]
 
 Vous serez alors redirigé vers la page de connexion. Il vous suffit de saisir votre nom d'utilisateur et votre mot de passe 
 
@@ -104,15 +116,17 @@ image::images/decouvrirproduit.png[decouvirProduit]
 
 Cela vous redirigera sur une nouvelle page dans laquelle vous pourrez observer les divers produits disponibles.
 
+image::images/produitsDispo.png[valider]
+
 == Consultation des détails d'un produit
 
-Pour consulter les détails d'un produit, il vous suffit de cliquer sur l'un des produits disponibles sur la page précédente.
+Pour consulter les détails d'un produit, il vous suffit de cliquer sur l'un des produits disponibles sur la page des produits.
 
-image::images/produitsDispo.jpg[valider]
+image::images/cliqueDetail.png[valider]
 
 Cela vous redirigera sur une nouvelle page dans laquelle vous pourrez observer les détails du produit sélectionné.
 
-image::images/detailsProduit.jpg[valider]
+image::images/detailsProduits.png[valider]
 
 
 
