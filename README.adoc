@@ -159,20 +159,19 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 
 ==== Application Java
 
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Code Source` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/raw/master/Applications/Java/MagicAlfombrAppSrc.zip[Télécharger le code source de l'application] | Code source de l'application Java
+| `.jar Fonctionnel` | | .jar de l'application Java fonctionnel à venir prochainement...
+|===
+
 ===== Documentation
 
 [cols="1,2,2",options=header]
 |===
 | Nom    | Lien         |  Notes 
-| `A venir...` |  | Documentation à venir prochainement...
-|===
-
-===== Tests des fonctionnalités de l'application 
-
-[cols="1,2,2",options=header]
-|===
-| Nom    | Lien         |  Notes 
-| `A venir...` |  | Tests à venir prochainement...
+| `Documentation technique` |  | Documentation à venir prochainement...
 |===
 
 == Gestion de projet & Qualité      
