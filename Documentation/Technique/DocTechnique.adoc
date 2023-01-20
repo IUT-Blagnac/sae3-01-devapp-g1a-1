@@ -1,0 +1,39 @@
+= Documentation technique solution JAVA
+:toc:
+:toc-title: Table des matières
+:sectnums:
+:sectnumlevels: 4
+
+== Introduction
+
+
+== Use Case
+
+== Architecture de la solution
+
+=== Architecture générale
+
+=== Ressources externes utilisées et rôles
+
+=== Structuration en packages
+
+=== Eléments essentiels à connaître
+
+== Explication des fonctionnalités 
+
+=== Titre de la fonctionnalité 1
+
+=== Classes impliquées dans chaque package
+
+=== Eléments essentiels à connaître
+
+=== Eventuellement, extraits de code significatifs 
+
+=== Titre de la fonctionnalité 1
+
+== Procédures d'installation 
+
+=== Pour le développement : comment installer l'environnement de développement
+
+=== Pour le poste utilisateur final avec l'application Python : comment installer et lancer l'application
+
