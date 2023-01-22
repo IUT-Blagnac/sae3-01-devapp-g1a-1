@@ -160,7 +160,7 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 |===
 | Nom    | Lien         |  Notes 
 | `Code Source` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/raw/master/Applications/Java/MagicAlfombrAppSrc.zip[Télécharger le code source de l'application] | Code source de l'application Java
-| `.jar Fonctionnel` | https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Java/MagicAlfombrApp.jar[Télécharger le .jar] | .jar de l'application Java fonctionnel à venir prochainement...
+| `.jar Fonctionnel` | https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Java/MagicAlfombrApp.jar[Télécharger le .jar] | .jar de l'application Java
 |===
 
 ===== Documentation
@@ -168,7 +168,7 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 [cols="1,2,2",options=header]
 |===
 | Nom    | Lien         |  Notes 
-| `Documentation technique` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Technique/DocTechnique.adoc[Lien vers la documentation] | Documentation à venir prochainement...
+| `Documentation technique` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Technique/DocTechnique.adoc[Lien vers la documentation] | Documentation technique de l'application Java 
 |===
 
 == Gestion de projet & Qualité      
