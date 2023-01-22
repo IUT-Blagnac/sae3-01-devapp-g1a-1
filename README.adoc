@@ -36,9 +36,6 @@ endif::[]
 :baseURL: https://github.com/IUT-Blagnac/sae3-01-template
 
 // Tags
-image:{baseURL}/actions/workflows/blank.yml/badge.svg[Bidon] 
-Build à venir... /
-Tests à venir... /
 image:https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg[License: MPL-2.0, link="https://opensource.org/licenses/MPL-2.0"]
 //---------------------------------------------------------------
 
@@ -163,7 +160,7 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 |===
 | Nom    | Lien         |  Notes 
 | `Code Source` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/raw/master/Applications/Java/MagicAlfombrAppSrc.zip[Télécharger le code source de l'application] | Code source de l'application Java
-| `.jar Fonctionnel` | | .jar de l'application Java fonctionnel à venir prochainement...
+| `.jar Fonctionnel` | https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Java/MagicAlfombrApp.jar[Télécharger le .jar] | .jar de l'application Java
 |===
 
 ===== Documentation
@@ -171,7 +168,7 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 [cols="1,2,2",options=header]
 |===
 | Nom    | Lien         |  Notes 
-| `Documentation technique` |  | Documentation à venir prochainement...
+| `Documentation technique` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Technique/DocTechnique.adoc[Lien vers la documentation] | Documentation technique de l'application Java 
 |===
 
 == Gestion de projet & Qualité      
@@ -241,6 +238,16 @@ TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre
 | `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduODJ_Reunion_SEM02_G1A-1.pdf.pdf[Lien vers le bilan] | Bilan de la semaine 02 (Bilan des tâches effectuées avec gantt)
 | `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem02_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 02 avec une analyse de travail d'équipe
 | `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM02_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 02 + ordre du jour 
+|===
+
+==== Semaine 03
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem03_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 03 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem03_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 03 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM03_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 03 + ordre du jour 
 |===
 
 === Évaluations hebdomadaires
