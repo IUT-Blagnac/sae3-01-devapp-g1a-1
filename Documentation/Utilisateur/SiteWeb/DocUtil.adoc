@@ -118,7 +118,7 @@ Cela vous redirigera sur une nouvelle page dans laquelle vous pourrez observer l
 
 image::images/produitsDispo.png[valider]
 
-== Consultation des détails d'un produit
+== Consultation des détails d'un produit [[anchor:detailsProduit]]
 
 Pour consulter les détails d'un produit, il vous suffit de cliquer sur l'un des produits disponibles sur la page des produits.
 
@@ -128,6 +128,13 @@ Cela vous redirigera sur une nouvelle page dans laquelle vous pourrez observer l
 
 image::images/detailsProduits.png[valider]
 
+== Ajout d'un avis
 
+Dans la page de <<anchor:detailsProduit>>, il vous suffit de cliquer sur le nombre d'étoiles que vous souhaitez donner au produit, de donner une description à cette avis (Facultatif) et de cliquer sur le bouton `Envoyez l'avis` pour confirmer l'ajout de l'avis.
 
+image::images/envoyAvis.png[valider]
+
+Cela affichera votre avis dans la liste des avis du produit sélectionné.
+
+image::images/affichAvis.png[valider]
 
