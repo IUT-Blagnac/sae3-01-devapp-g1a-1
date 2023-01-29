@@ -5,6 +5,10 @@
 :incremental:
 :numbered:
 :toc: macro
+:toc-title: Table des matières
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 5
 :window: _blank
 :correction!:
 
@@ -32,75 +36,229 @@ endif::[]
 :baseURL: https://github.com/IUT-Blagnac/sae3-01-template
 
 // Tags
-image:{baseURL}/actions/workflows/blank.yml/badge.svg[Bidon] 
-image:{baseURL}/actions/workflows/build.yml/badge.svg[Build] 
-image:{baseURL}/actions/workflows/tests.yml/badge.svg[Tests] 
 image:https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg[License: MPL-2.0, link="https://opensource.org/licenses/MPL-2.0"]
 //---------------------------------------------------------------
-
-TIP: Pensez à mettre à jour les infos dans ce fichier pour que les badges pointent sur les résultats effectifs de vos intégrations continue ou sur la bonne licence logicielle.
-
-WARNING: Ce dépôt présente le projet à développer dans le cadre de la SAÉ 3.01 du BUT1 Informatique de l'IUT de Blagnac.
-
-Ce fichier `README.adoc` (dont vous lisez sûrement le rendu HTML automatiquement effectué par GitHUb), fait partie du dépôt initial cloné à partir du lien GitHub classroom qui vous a été donné en cours (https://classroom.github.com/a/OUF7gxEa).
-Vous trouverez le dépôt "template" qui a servi de base ici : https://github.com/IUT-Blagnac/sae3-01-template. En complément du cours Moodle de la SAE 3.01 (cf. <<liensUtiles>>), ce dépôt template vous permet d'accéder à des exemples d'https://github.com/IUT-Blagnac/sae3-01-template/issues[issues], de https://github.com/IUT-Blagnac/sae3-01-template/releases[releases], ou d'autres artefacts à venir.
 
 toc::[]
 
 == Equipe
 
-Projet est réalisé par::
+Projet réalisé par::
 
-- https://github.com/janeDoe[Jane Doe]
-- https://github.com/johnSmith[John Smith]
-...
+- https://github.com/Geriandre[DE BEAUMONT Pierre]
+- https://github.com/Aestraa[MOINY-BOUDGHASSEM Yanis]
+- https://github.com/Ozouka[ZOULI-BARRERE Karim] 
 
-Tuteur/tutrice enseignant(e) de l'équipe:: mailto:jean-michel.bruel@univ-tlse2.fr[JMB]
 
-== Contexte général
-
-TIP: Cette partie de votre `README.adoc` peut être supprimée ou mise ailleurs.
-
-=== Dépôt initial
-
-Ce dépôt initial a été créé pour que tous les groupes de 2ème année aient les mêmes informations de départ.
-
-Vous y trouverez des fichiers qui peuvent être supprimés s'ils ne vous sont pas utiles :
-
-- `.gitignore` => un fichier minimaliste des éléments à ne pas pousser en général sur vos dépôts (utiliser la commande `git add -f` pour forcer l'ajout d'un fichier Jar qui ne bougera plus, pour archive par exemple).
-- `.github` => le répertoire qui contient des éléments de gestion de projet :
-** `workflows` => le repertoire qui contient les actions à lancer à chaque push sur votre repo. 
-*** `blank.yml` => un exemple bidon mais dont vous pourrez vérifier l’exécution correcte (1er tag)
-** `ISSUE_TEMPLATE` => le repertoire qui contient quelques templates pour vos issues.
-*** `us.yml` => Exemple de template pour les User Stories
-*** `bug.yml` => Exemple de template pour les issues de bug report
-
-TIP: Adaptez ces fichiers à votre projet et à votre organisation. Et inspirez-vous en pour en ajouter.
-
-[[liensUtiles]]
-=== Liens utiles
-
-- Le https://webetud.iut-blagnac.fr/course/view.php?id=841[cours Moodle] sur la SAE
-- Le dépôt https://github.com/IUT-Blagnac/sae3-01-template[template] qui sert de base à tous les dépôts étudiants.
-- Le lien https://classroom.github.com/a/OUF7gxEa[classroom] si besoin.
-
-TIP: Pensez à utiliser les salons Discord dédiés pour poser vos questions.
+Tuteur/tutrice enseignant(e) de l'équipe:: mailto:amelie.legrand@univ-tlse2.fr[ALE, blabla]
 
 == Réalisations 
 
-TIP: Mettez ici toutes les informations nécessaire à l'utilisation de votre dépôt (comment on installe votre application, où sont les docs, etc.)
+TIP: Ici ce trouve toutes les informations nécessaire à l'utilisation de notre application/site web(Comment accéder à notre site, où sont les docs, etc.)
 
-== Gestion de projet & Qualité
+=== Site web 
 
-Chaque sprint (semaine) vous devrez livrer une nouvelle version de votre application (release).
-Utilisez pour cela les fonctionnalités de GitHub pour les https://docs.github.com/en/repositories/releasing-projects-on-github[Releases].
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `SITE WEB` | http://193.54.227.164/~SAESYS01/[Lien vers le site web] | Site web produit
+|===
 
-De plus ce fichier `README.adoc` devra être à jour des informations suivantes :
+==== Documentation utilisateur du site web
 
-- Version courante : https://github.com/IUT-Blagnac/sae3-01-template/releases/tag/v0.1.2[v0.1.2]
-- Lien vers la doc technique
-- Lien vers la doc utilisateur
-- Liste des (ou lien vers les) User Stories (ToDo/Ongoing/Done) et % restant
-- Tests unitaires et plans de test
-- Indicateurs de qualité du code (dette technique)
-- ... tout autre élément que vous jugerez utiles pour démontrer la qualité de votre application
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Manuel Utilisateur` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Utilisateur/SiteWeb/DocUtil.adoc[Lien vers la documentation] | Documentation utilisateur du site web (tutorial d'utilisation du site web et des fonctionnalités)
+|===
+
+==== Tests des fonctionnalités du site web
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Test produit/détail` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/Web/Livrable%20WEB%20SEM01%20G1A-1.docx.pdf[Lien vers les tests] | Tests de la page des produits et de la page de détail d'un produit
+| `Test modif/panier` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/Web/Livrable%20WEB%20SEM02%20G1A-1.docx.pdf[Lien vers les tests] | Tests de la page de modification d'un compte client et de la page du panier
+|===
+
+=== Choix du groupe client
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Compte rendu Speed Dating` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/AppelOffre/Compte%20rendu%20de%20speed%20dating.pdf[Lien vers le compte rendu] | Compte rendu du speed dating (afin de choisir le groupe client) 
+|===
+
+=== Documentation site web 
+==== Notre groupe (G1A-1)
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes                          
+| `CDCF`   | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/CDCF-CDCT-DCE/CDCF%20(Cahier%20des%20charges%20fonctionnel).pdf[Lien vers le CDCF] | Cahier des charges fonctionnel 
+| `CDCT`   | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/CDCF-CDCT-DCE/CDCT%20(Cahier%20des%20charges%20technique).pdf[Lien vers le CDCT] | Cahier des charges technique
+| `DCE` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/CDCF-CDCT-DCE/DCE%20(Dossier%20de%20Consultation%20des%20Entreprises).pdf[Lien vers le DCE] | Dossier de consultation des entreprises
+| `Charte Graphique` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/Site%20Web/CharteGraphique_G1A-1.pdf[Lien vers la charte graphique] | Charte graphique du site web client
+| `SEP` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/Site%20Web/Sch%C3%A9maEnchainementPages.png[Lien vers le SEP] | Schéma d'enchainement des pages du site web client
+|===
+
+==== Groupe Client (G1B-4) pour la réalisation du site web
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes                          
+| `CDCF Client`   | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/AppelOffre/Documentation%20G1B-4/CDCF.pdf[Lien vers le CDCF client] | Cahier des charges fonctionnel 
+| `CDCT Client`   | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/AppelOffre/Documentation%20G1B-4/CDCT.pdf[Lien vers le CDCT client] | Cahier des charges technique
+| `DCE Client` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/AppelOffre/Documentation%20G1B-4/DCE.pdf[Lien vers le DCE client] | Diagramme de classe de la base de données 
+|===
+
+=== Base de données
+
+==== Documentation base de données
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Schéma Relationnel` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/BD/SchemaRelationel.adoc[Lien vers le schéma relationnel] | Schéma relationnel de la base de données
+| `Diagramme de classe` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/BD/DiagrameDeClasse.png[Lien vers le diagramme de classe] | Diagramme de classe de la base de données
+| `Dictionnaire de données` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/BD/DicoDesDonnees_G1A-1.pdf[Lien vers le dictionnaire de données] | Dictionnaire de données de la base de données
+|===
+
+==== Tests des fonctionnalités de la base de données
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Tests Procédures` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/BD/Livrable%20BD%20SEM01%20G1A-1.docx.pdf[Lien vers les tests] | Tests des procédures de la base de données
+|===
+
+=== Application PYTHON/JAVA
+
+==== Application Python
+
+===== Documentation
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Explication du code (TD)` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Python/Documentation_IoT_G1A-1.pdf[Lien vers le fichier d'explication] | Explication du code réalisé en TD 
+| `Documentation Utilisateur` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Python/DocUtilPython.adoc[Lien vers la documentation] | Documentation utilisateur de l'application
+|===
+
+===== Tests des fonctionnalités de l'application 
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Tests de l'application` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Tests/Python/DocTestPy.adoc[Lien vers les tests] | Tests de l'application Python 
+|===
+
+==== Application Java
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Code Source` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/raw/master/Applications/Java/MagicAlfombrAppSrc.zip[Télécharger le code source de l'application] | Code source de l'application Java
+| `.jar Fonctionnel` | https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Applications/Java/MagicAlfombrApp.jar[Télécharger le .jar] | .jar de l'application Java
+|===
+
+===== Documentation
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Documentation technique` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Technique/DocTechnique.adoc[Lien vers la documentation] | Documentation technique de l'application Java 
+|===
+
+== Gestion de projet & Qualité      
+
+=== Informations utiles
+
+- `Version` du projet : image:https://img.shields.io/github/v/release/IUT-Blagnac/sae3-01-devapp-g1a-1?style=plastic&logo=Vonage&logoColor=4592AF[link="https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/releases/tag/v7.0.0"]
+- `Future version` : image:https://img.shields.io/badge/milestone-8-%233C79F5?style=plastic&logo=Vonage&logoColor=blue[link=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/milestone/8]
+- `User stories` en cours : image:https://img.shields.io/github/issues-search/IUT-Blagnac/sae3-01-devapp-g1a-1?color=CF7500&label=User%20Stories&logo=Udacity&logoColor=CF7500&query=is%3Aopen%20is%3Aissue%20label%3A%22User%20Story%22%20label%3A%22En%20cours%22&style=plastic[link=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3A%22User+Story%22+label%3A%22En+cours%22]
+- `Tâches` en cours : image:https://img.shields.io/github/issues-search/IUT-Blagnac/sae3-01-devapp-g1a-1?color=50D890&label=T%C3%A2ches&logo=Tether&logoColor=50D890&query=is%3Aopen%20is%3Aissue%20label%3AT%C3%A2che%20label%3A%22En%20cours%22&style=plastic[link=https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/issues?q=is%3Aopen+is%3Aissue+label%3AT%C3%A2che+label%3A%22En+cours%22]
+
+
+=== Gestion du projet par semaine
+
+==== Semaine 47
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem47_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 47 (Bilan difficultés, avancement, etc.)
+|===
+
+==== Semaine 48
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem48_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 48 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem48_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 48
+|===
+
+==== Semaine 49
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem49_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 49 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem49_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 49 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM49_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 49 + ordre du jour 
+|===
+
+==== Semaine 50
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem50_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 50 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem50_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 50 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM50_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 50 + ordre du jour 
+|===
+
+==== Semaine 01
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem01_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 01 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficultesReussitesSem01_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 01 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_Reunion_SEM01_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 01 + ordre du jour 
+|===
+
+==== Semaine 02
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduODJ_Reunion_SEM02_G1A-1.pdf.pdf[Lien vers le bilan] | Bilan de la semaine 02 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem02_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 02 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM02_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 02 + ordre du jour 
+|===
+
+==== Semaine 03
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Bilan Semaine` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanSemaine/CompteRenduGestionProjetSem03_G1A-1.pdf[Lien vers le bilan] | Bilan de la semaine 03 (Bilan des tâches effectuées avec gantt)
+| `Bilan Difficultés Réussites` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/BilanDifficultesReussites/BilanDifficult%C3%A9sR%C3%A9ussitesSem03_G1A-1.pdf[Lien vers le bilan] | Bilan des difficultés et réussites de la semaine 03 avec une analyse de travail d'équipe
+| `Compte rendu réunion` | https://github.com/IUT-Blagnac/sae3-01-devapp-g1a-1/blob/master/Documentation/Livrables/GestionProjet/OrdreDuJourReunion/CompteRenduODJ_R%C3%A9union_SEM03_G1A-1.pdf[Lien vers le compte rendu] | Compte rendu de réunion de la semaine 03 + ordre du jour 
+|===
+
+=== Évaluations hebdomadaires
+
+NOTE: Les notes ci-dessous sont mises à jour directement par les enseignants responsables de la compétence 5.
+
+ifdef::env-github[]
+image:https://docs.google.com/spreadsheets/d/e/2PACX-1vTc3HJJ9iSI4aa2I9a567wX1AUEmgGrQsPl7tHGSAJ_Z-lzWXwYhlhcVIhh5vCJxoxHXYKjSLetP6NS/pubchart?oid=1850914734&amp;format=image[link=https://docs.google.com/spreadsheets/d/e/2PACX-1vTc3HJJ9iSI4aa2I9a567wX1AUEmgGrQsPl7tHGSAJ_Z-lzWXwYhlhcVIhh5vCJxoxHXYKjSLetP6NS/pubchart?oid=1850914734&amp;format=image]
+endif::[]
+
+ifndef::env-github[]
+++++
+<iframe width="786" height="430" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTc3HJJ9iSI4aa2I9a567wX1AUEmgGrQsPl7tHGSAJ_Z-lzWXwYhlhcVIhh5vCJxoxHXYKjSLetP6NS/pubchart?oid=1850914734&amp;format=image"></iframe>
+++++
+endif::[]

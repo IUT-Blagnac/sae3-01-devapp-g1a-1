@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: QuickSand;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HEADER */
+
+.main-head{
+    background: #333;
+}
+
+input{
+    border-radius: 5px;
+}
+
+nav{
+    min-height: 8vh;
+    display: flex;
+    width: 100%;
+    position:relative;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+
+nav img{
+    align-items: center;
+    height: 150px;  
+    padding: 0 20px;  
+}
+
+nav ol{
+    display:flex;
+    list-style: none ;
+}
+
+nav ol li{
+    margin: 0 5px;
+}
+
+nav ol li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 70px;
+}
+
+nav ol li:hover  a{
+    border-radius: 5px;
+    background: #fff;
+    color:#333;
+}
+
+nav .search-box{
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+
+nav .search-box input{
+   border: none;
+   outline: none;
+   background: #fff;
+   height: 100%;
+   padding: 0 10px;
+   font-size: 20px;
+   width: 380px;
+}
+
+/* Contenu */
+
+
+.box{
+    position: relative;
+    left: 90vh;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1300px) {
+   
+    .contenu-footer{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+
+    .bloc{
+        width: 40%;
+        margin: 0 0;
+    }
+
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-bottom: 50px;
+    }
+
+    nav{
+        display: block;
+        padding: 0;
+    }
+
+    nav img{
+        display: inline-block;
+        padding: 15px 0px;
+    }
+
+    nav .search-box{
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    nav .search-box input{
+        width: 90%;
+    }
+
+    .box{
+        position: relative;
+        left: 40vh;
+    }
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .contenu-footer{
+        width: 320px;
+    }
+
+    .bloc{
+        width: 300px;
+        margin: 30px 30px;
+    }
+
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-bottom: 30px;
+    }
+
+    .bloc:nth-child(1){
+        margin-top:0;
+    }
+
+    .box{
+        position: relative;
+        left: 100px;
+    }
+
+}
