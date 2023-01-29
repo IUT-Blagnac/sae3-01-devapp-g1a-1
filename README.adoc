@@ -47,7 +47,6 @@ Projet réalisé par::
 
 - https://github.com/Geriandre[DE BEAUMONT Pierre]
 - https://github.com/Aestraa[MOINY-BOUDGHASSEM Yanis]
-- https://github.com/Hepssylon[NAUD Lilian]
 - https://github.com/Ozouka[ZOULI-BARRERE Karim] 
 
 
